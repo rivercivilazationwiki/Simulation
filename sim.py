@@ -12,7 +12,6 @@ for i in range(n):
     one.append(o)
     trial=[]
 One=list(set(one))
-print(One)
 count={One[i]:0 for i in range(len(One))}
 for m in one:
     count[m]+=1
